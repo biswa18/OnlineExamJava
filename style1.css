@@ -1,0 +1,130 @@
+@charset "ISO-8859-1";
+.slider
+{
+		height: auto;
+		width:100%;
+		display:inline-block;
+	 	margin:auto;
+		border-style: 2px solid red;
+}
+a:hover{
+	text-decoration:none;
+}
+#myDiv
+{
+
+	  position: fixed;
+	  width: 300px;
+	  height: 200px;
+	  z-index: 15;
+	  top: 50%;
+	  left: 50%;
+	  margin: -100px 0 0 -150px;
+}
+.card-img-top, .img-fluid{
+	margin: auto;
+   width:100px;
+    
+    padding: 10px;
+}
+.col-lg-9
+{
+	margin: auto;
+   width:80%;
+    
+    padding: 10px;
+}
+
+.bckimg1
+{
+		padding:0px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;
+   		height: 250px;
+    	width: 100%;
+		object-fit:fill;
+        background-position: middle;
+        background-repeat: no-repeat;
+        background-size: cover;
+	    margin-left:0 auto;
+	    
+}
+
+.p, .li,.pageheading,.pagelist
+{
+	display:inline-block;
+}
+footer.footer
+{
+	background:#E6F7F6  ;
+}
+#index1,#admin1,#signup1,#student1 {
+	 background-image:url(macbook.jpg);
+     background-repeat: no-repeat;
+  	 background-size: cover;
+     margin:0px auto;
+     background-attachment: fixed;
+    background-position: center;
+}
+
+body footer
+{
+	z-index:1;
+	position:relative;
+}
+
+.menubar
+{	
+	background-color: lightblue;
+	margin:0 auto;
+	position:relative;
+	height:65px;
+	width:1500px;
+	font-size:16px;	
+	}
+
+.navbar-nav > li a
+{
+	color:black !important;
+}
+.footer-header,.footer-body{
+	color: DarkBlue;
+	padding-bottom:1px;
+}
+.container-footr,.footer-copyright
+{
+	text-align: center;
+	margin:0px auto;
+	height:50px;
+	max-width:100%;
+	font-color:white;
+	border:0px;
+	padding-left:175px;
+	background: rgba(255,0,0,0);
+}
+.fa {
+  
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+	  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+}

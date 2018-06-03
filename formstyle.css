@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+#form
+{
+	background-color:Coral;
+	opacity:0.9;
+	min-height:600px;
+	align:center;
+	display:table;
+	margin:0 auto;
+	width:600px;
+	padding:5px 40px 40px 40px;
+}
+.rads{
+	text-align:center;
+	float:left;
+	display:inline;
+}
+.register
+{
+	font-size:48px;
+	font-family:Times New Roman;
+	font-weight:700;
+	border-bottom-style:ridge;
+	
+}
+.text
+{
+	height:43px;
+}
+label
+{
+	font-size:20px;
+}
+.btn-primary
+{
+	border-radius:0px;
+	padding:10px;
+	width:49%;
+}
+.btn-danger
+{
+	border-radius:0px;
+	padding:10px;
+	width:49%;
+}
+.radio-inline {
+    padding:10px;
+}
+.radio-inline > * {
+    margin:15px 3px !important;
+}
